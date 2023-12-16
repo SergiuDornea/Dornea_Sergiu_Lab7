@@ -25,10 +25,16 @@
                     <Button Text="Save Shop" Grid.Column="0"
 MaximumWidthRequest="200"
  Clicked="OnSaveButtonClicked" />
-                    <Button Text="Show on Map" Grid.Column="1"
+                    <Button Text="Delete Shop" Grid.Column="1"
+MaximumWidthRequest="200"
+ Clicked="OnDeleteButtonClicked" />
+                    <Button Text="Show on Map" Grid.Column="2"
 MaximumWidthRequest="200"
  Clicked="OnShowMapButtonClicked"></Button>
                 </Grid>
             </StackLayout>
         </ContentPage>
 </ContentPage>
+    
+    
+    
